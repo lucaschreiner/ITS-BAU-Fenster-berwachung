@@ -16,13 +16,13 @@ void loop()
 
   if (status == HIGH)
   {
-    digitalWrite(LEDGruen, HIGH);
-    digitalWrite(LEDRot, LOW);
+    digitalWrite(LEDGruen, LOW);
+    digitalWrite(LEDRot, HIGH);
   }
 
   else
   {
-    digitalWrite(LEDGruen, LOW);
-    digitalWrite(LEDRot, HIGH);
+    digitalWrite(LEDGruen, HIGH);
+    digitalWrite(LEDRot, LOW);
   }
 }
